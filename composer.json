@@ -1,0 +1,15 @@
+{
+    "name": "aex/yueguang-log-drive",
+    "authors": [
+        {
+            "name": "aex",
+            "email": "email@email.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aex\\YueguangLogDrive\\": "src/"
+        }
+    },
+    "require": {}
+}
