@@ -19,5 +19,18 @@ Laravel 自带的日志驱动，只能支持按照日期才分日志。线上翻
 
 ### 按照教程
 1.安装这个包的时候你的 composer.json 在require可以加这样一行：   "yueguang/yueguang-log-drive": "dev-main"
+2.下面安装这个自定义包吧： composer update yueguang/yueguang-log-drive
+3.执行 composer dump-autoload
+
+大功告成！
+
+注意：目前日志驱动只支持Laravel 框架
+
+开源不容易，各位大佬如果觉得好用，点个赞或者打赏一下，支持一下
+
+
+![a0c1a444651d292cb6862c58de04bdc](https://user-images.githubusercontent.com/21374954/144804788-2b0024a3-d383-4581-af30-cf944f410274.jpg)
+
+
 
 
