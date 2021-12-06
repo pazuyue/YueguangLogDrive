@@ -18,9 +18,19 @@ Laravel 自带的日志驱动，只能支持按照日期才分日志。线上翻
 
 
 ### 按照教程
-1.安装这个包的时候你的 composer.json 在require可以加这样一行：   "yueguang/yueguang-log-drive": "dev-main"
-2.下面安装这个自定义包吧： composer update yueguang/yueguang-log-drive
-3.执行 composer dump-autoload
+1.安装这个包的时候你的 composer.json 在require可以加这样一行：   "yueguang/yueguang-log-drive": "dev-main"     
+2.下面安装这个自定义包吧： composer update yueguang/yueguang-log-drive     
+3.执行 composer dump-autoload     
+
+### 使用
+在config\logging.php 上新增驱动设置  
+
+  'custom' => [
+            'driver' => 'custom',
+            'via' => MonologCustomizeFormatter::class,
+            'path' => storage_path('logs/laravel.log'),
+            'days' => 30,
+        ],
 
 大功告成！
 
