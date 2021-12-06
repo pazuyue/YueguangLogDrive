@@ -13,5 +13,11 @@ Laravel 自带的日志驱动，只能支持按照日期才分日志。线上翻
 ##### 日志展示：
 ![image](https://user-images.githubusercontent.com/21374954/144803571-e34e973b-bc12-4de0-99a3-7ccfb45d9fc5.png)
 
+##### 日志内容：
+![image](https://user-images.githubusercontent.com/21374954/144803685-86caf272-80fb-42a8-8fd7-09512d0a1df0.png)
+
+
+### 按照教程
+1.安装这个包的时候你的 composer.json 在require可以加这样一行：   "yueguang/yueguang-log-drive": "dev-main"
 
 
