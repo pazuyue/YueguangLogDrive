@@ -7,4 +7,11 @@ Laravel 自带的日志驱动，只能支持按照日期才分日志。线上翻
 
 #### 日志驱动效果 图：
 
+##### 埋点：
 ![image](https://user-images.githubusercontent.com/21374954/144803541-f7cb2896-b0b8-4a4d-99d6-d72f03a52c28.png)
+
+##### 日志展示：
+![image](https://user-images.githubusercontent.com/21374954/144803571-e34e973b-bc12-4de0-99a3-7ccfb45d9fc5.png)
+
+
+
